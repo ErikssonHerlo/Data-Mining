@@ -2,7 +2,7 @@ library(readxl)
 library(arules)
 
 # Cargar base completa
-data <- read_excel("Tarea3/data/base-de-datos-violencia-intrafamiliar-ano-2024_v3.xlsx")
+data <- read_excel("data/base-de-datos-violencia-intrafamiliar-ano-2024_v3.xlsx")
 
 # Grupo 1: Hecho y denuncia 
 g1 <- data[, c("HEC_TIPAGRE","QUIEN_REPORTA","HEC_AREA","HEC_RECUR_DENUN","INST_DONDE_DENUNCIO")]

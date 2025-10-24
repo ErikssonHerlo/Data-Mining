@@ -6,7 +6,7 @@ library(readxl)
 library(arules)
 
 # 1) Carga de datos
-df <- read_excel("Tarea2/data/graduados-superior-2023.xlsx")
+df <- read_excel("data/graduados-superior-2023.xlsx")
 
 # 2) Seleccionar columnas categóricas (evitar AÑO y Edad numérica)
 cols <- c("CARRERA","Departamento","Nivel_Educativo","Sexo","Grupos_Quinquenales","Sector","Pueblo_Pertenencia")
